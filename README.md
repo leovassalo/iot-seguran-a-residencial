@@ -1,4 +1,4 @@
-# iot-seguran-a-residencial
+# iot-seguranca-residencial
 PROJETO FINAL DA DISCIPLINA PSI 3542 - SISTEMAS EMBARCADOS PARA IOT
 
 O projeto consiste na implementação de um sistema de segurança residencial simulada com base em funcionalidades de cloud.
