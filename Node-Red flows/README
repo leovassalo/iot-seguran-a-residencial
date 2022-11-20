@@ -1,0 +1,19 @@
+Node Red será o principal gerenciador do RasberryPi-3, controlando a entrada dos comendos da dashboard ou de sensores externos
+e os redirecionando apropriadamente para o ESP-32 e/ou para suas variáveis de estado.
+
+Tanto microfone quanto DHT estão localizados no próprio gateway (Raspi);
+
+Atualmente conta com todas as nodes necessárias para entendimento de uma "wake word" (Jarvis), respondendo tal comando com uma
+frase de "confirmação"/"Ja pode falar". Em seguida comandos como "Qual a temperatura" são interpretados por uma node do tipo Switch
+que redireciona apropriadamente para a ação expecificada pelo usuário.
+
+Falta implementar um sistema de "Desculpa, não entendi"
+
+Sistemas de resposta já disponíveis:
+  - leitura de Temperatura
+  - leitura de Umidade
+Ainda carecem serem programados:
+  - luz de emergência
+  - estado dos sensores (atuantes no ESP)
+  - estado das luzes (atuantes no ESP)
+  - further interações humano-Jarvis ("não entendi, repita pf", "Ligando as luzes", "Cozinha requer atenção", etc...)
