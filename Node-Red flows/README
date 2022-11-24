@@ -1,27 +1,34 @@
 Node Red será o principal gerenciador do RasberryPi-3, controlando a entrada dos comendos da dashboard ou de sensores externos
-e os redirecionando apropriadamente para o ESP-32 e/ou para suas variáveis de estado.
+e os redirecionando apropriadamente para o ESP-32 e/ou para suas variáveis de estado;
 
 Tanto microfone quanto DHT estão localizados no próprio gateway (Raspi);
 
-Atualmente conta com todas as nodes necessárias para entendimento de uma "wake word" (Jarvis), respondendo tal comando com uma
-frase de "confirmação"/"Ja pode falar". Em seguida comandos como "Qual a temperatura" são interpretados por uma node do tipo Switch
-que redireciona apropriadamente para a ação expecificada pelo usuário.
+Atualmente conta com todas as nodes necessárias para entendimento de uma "wake word" (Jarvis), respondendo tal comando com uma frase
+de "confirmação"/"Ja pode falar". Em seguida comandos como "Qual a temperatura" são interpretados por uma Node do tipo Switch, que
+redireciona apropriadamente para a ação expecificada pelo usuário;
 
-Falta implementar um sistema de "Desculpa, não entendi"
-
-Sistemas de resposta já disponíveis:
+Sistemas já disponíveis:
   - leitura de Temperatura
   - leitura de Umidade
   - ativação remota das luzes
+  - ativação remota de uma trava
 Ainda carecem serem programados:
   - luz de emergência
-  - estado dos sensores (atuantes no ESP)
-  - further interações humano-Jarvis ("não entendi, repita pf", "Ligando as luzes", "Cozinha requer atenção", etc...)
+  - estado dos sensores atuantes no ESP
+  - ademais interações humano-Jarvis ("Ligando as luzes", "Cozinha requer atenção", etc...)
+
+Conta com um sistema de "Desculpa, não entendi", toda vez que a wake-word é identificada mas a frase seguinte não está nas listadas;
  
 Comandos disponíveis/Instruções de uso:
 Ao se iniciar o sistema o microfone fica em espera da wake-word "Jarvis". Ao entendê-la com sucesso, a assistente responderá uma frase de confirmação.
-Logo após tal interação, é possível dizer o que se deseja, no qual as palavras: "Temperatura", "Umidade", "Ligar" e "Desligar";
-Dos quais os dois primeiros retornam por operações Text To Speech a leitura atual do DHT, respectivo ao que foi solicitado;
-Quanto aos dois últimos, eles mandam um sinal mqtt de ON ou OFF, respectivamente, que ativa o led interno localizado na placa ESP.
+Logo após tal interação, é possível dizer o que se deseja com o seguinte formato: acesso-ação, um par de palavras ditas idealmente em sequência,
+onde as palavras de acesso:
+* "Qual a":
+    Para esse acesso temos as opções "Temperatura" e "Umidade", que retornam, por operações Text To Speech, a leitura atual do DHT, respectivo ao que foi solicitado.
+* "Luzes":
+    Aqui, "Ligar" e "Desligar" mandam um sinal mqtt de ON ou OFF, respectivamente, que ativa o led interno localizado na placa ESP.
+* e "Trava":
+    Do qual é possível requisitar "Trancar", "Destrancar" e "Estado". Os dois primeiros o executam na trava localizada no ESP,
+    enquanto o último lê o estado atual da mesma.
 
 https://www.youtube.com/watch?v=20OGm_-RebE
