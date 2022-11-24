@@ -12,8 +12,16 @@ Falta implementar um sistema de "Desculpa, não entendi"
 Sistemas de resposta já disponíveis:
   - leitura de Temperatura
   - leitura de Umidade
+  - ativação remota das luzes
 Ainda carecem serem programados:
   - luz de emergência
   - estado dos sensores (atuantes no ESP)
-  - estado das luzes (atuantes no ESP)
   - further interações humano-Jarvis ("não entendi, repita pf", "Ligando as luzes", "Cozinha requer atenção", etc...)
+ 
+Comandos disponíveis/Instruções de uso:
+Ao se iniciar o sistema o microfone fica em espera da wake-word "Jarvis". Ao entendê-la com sucesso, a assistente responderá uma frase de confirmação.
+Logo após tal interação, é possível dizer o que se deseja, no qual as palavras: "Temperatura", "Umidade", "Ligar" e "Desligar";
+Dos quais os dois primeiros retornam por operações Text To Speech a leitura atual do DHT, respectivo ao que foi solicitado;
+Quanto aos dois últimos, eles mandam um sinal mqtt de ON ou OFF, respectivamente, que ativa o led interno localizado na placa ESP.
+
+https://www.youtube.com/watch?v=20OGm_-RebE
