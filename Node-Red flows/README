@@ -1,7 +1,8 @@
 Node Red será o principal gerenciador do RasberryPi-3, controlando a entrada dos comendos da dashboard ou de sensores externos
 e os redirecionando apropriadamente para o ESP-32 e/ou para suas variáveis de estado;
 
-Tanto microfone quanto DHT estão localizados no próprio gateway (Raspi);
+Tanto microfone quanto DHT estão localizados no próprio gateway (Raspi), ao passo que periféricos como Luzes/LEDs, travas/relés de estado
+e sensores (como de gás) vão no microcontrolador agregado (ESP);
 
 Atualmente conta com todas as nodes necessárias para entendimento de uma "wake word" (Jarvis), respondendo tal comando com uma frase
 de "confirmação"/"Ja pode falar". Em seguida comandos como "Qual a temperatura" são interpretados por uma Node do tipo Switch, que
