@@ -19,7 +19,7 @@ O laço de ação é mais longo, envolvendo alguns ifs e elses:
 
 ![image](https://user-images.githubusercontent.com/82290945/204058574-1ed5e760-b758-4bf3-98a0-52e64b4e0a8f.png)
 
-![image](https://user-images.githubusercontent.com/82290945/204058576-62e8f09f-d24c-4711-a545-0da5f751a317.png)
+![image](![image](https://user-images.githubusercontent.com/82290945/205467044-7e317c2f-f83e-41cb-960a-0c731d7be1f7.png))
 
 ![image](https://user-images.githubusercontent.com/82290945/204058578-abe07e6a-14f7-4fc2-a200-98c878c34533.png)
 
