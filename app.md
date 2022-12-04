@@ -34,3 +34,5 @@ Do ponto de vista da lógica de ação, a aplicação é extremamente rudimentar
 ![image](https://user-images.githubusercontent.com/82290945/204058620-986d8052-dac7-46bd-9ac1-6d339f0f5979.png)
 
   </p>
+
+<br />Com esses recursos, é possível replicar o setup da aplicação.
