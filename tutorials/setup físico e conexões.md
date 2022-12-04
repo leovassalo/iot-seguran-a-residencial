@@ -7,7 +7,7 @@ no pino adequado. Não se esqueça de utilizar os pinos GND e 3V3 para a aliment
 ![image](https://user-images.githubusercontent.com/82290945/205467863-8f7d0ff8-4623-472e-ade3-366c0bc0ee88.png)
 
 Em seguida, o Raspberry Pi 3 comporta todas as outras conexões: os dispositivos de IO (microfone/caixas de som, teclado/mouse/monitor) são conectados nas
-entradas USB do microcomputador, enquanto o sensor DHT22 é conectado nos pinos (AJUDA). Abaixo, é possível ver as conexões finais no dispositivo
+entradas USB do microcomputador, enquanto o sensor DHT22 é conectado nos seguintes pinos do microcontrolador: 2 (entrada VCC),6 (ground) e 11 (saída de dados). Abaixo, é possível ver as conexões finais no dispositivo.
 <br /><br />
 ![image](https://user-images.githubusercontent.com/82290945/205468058-a8d5f8b2-b056-415b-be2e-4e8803d75ace.png)
 <br /><br />
