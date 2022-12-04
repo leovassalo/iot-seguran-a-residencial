@@ -13,9 +13,9 @@ em sequência, onde as palavras de acesso:
 * Demais:
     O Jarvis responde - no caso de nenhuma das duplas de intenção ser detectada por ele - que necessita de que o usuário repita o comando.
     
-Exemplo de uso ("U" corresponde a "usuário" e "J" ao assistente Jarvis):
-U: Jarvis!
-J: Já pode falar
+Exemplo de uso ("U" corresponde a "usuário" e "J" ao assistente Jarvis): <br />
+U: Jarvis! <br />
+J: Já pode falar <br />
 U: Diga a temperatura!
 J: Desculpa, não entendi
 U: Jarvis!
