@@ -13,13 +13,13 @@ Sistemas já disponíveis:
   - leitura de Umidade
   - ativação remota das luzes
   - ativação remota de uma trava
-  - resposta interativa para comandos desconhecidos *
+  - resposta interativa para comandos desconhecidos @
 Ainda carecem serem programados:
   - luz de emergência
   - estado dos sensores atuantes no ESP
   - ademais interações humano-Jarvis ("Ligando as luzes", "Cozinha requer atenção", etc...)
 
-* Conta com um sistema de "Desculpa, não entendi", toda vez que a wake-word é identificada mas a frase seguinte não está nas listadas;
+@ Conta com um sistema de "Desculpa, não entendi", toda vez que a wake-word é identificada mas a frase seguinte não está nas listadas;
  
 Comandos disponíveis/Instruções de uso:
 Ao se iniciar o sistema o microfone fica em espera da wake-word "Jarvis". Ao entendê-la com sucesso, a assistente responderá uma frase de confirmação.
