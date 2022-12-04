@@ -6,3 +6,4 @@ O projeto consiste na implementação de um sistema de segurança residencial si
 
 O core está em um RaspberryPi 3, central que coordena, via node-red, os periféricos. No caso, entre os periféricos, é possível citar: microfone, alto-falante, detector de temperatura/umidade, detector de gás, relés de atuação e sensor de estado integrados principalmente via um outro microcontrolador, um ESP32.
 
+Para mais informações, acesse os tutoriais. O projeto é open source, estando todos os códigos utilizados disponibilizados neste repositório.
