@@ -35,5 +35,3 @@ onde as palavras de acesso:
     
  No Node-Red também se encontram programações relacionadas a um banco de dados de todos os estados atuais de luzes, travas e temperatura
  - exemplos disponíveis nos arquivos .txt no Git -, e um sistema que atualiza ou devolve esses dados sempre que o aplicativo ou o site os requisitam.
-
-https://www.youtube.com/watch?v=_ydMlTassYc
