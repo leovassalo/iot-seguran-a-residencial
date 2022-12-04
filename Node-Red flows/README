@@ -28,7 +28,7 @@ onde as palavras de acesso:
 * "Qual a":
     Para esse acesso temos as opções "Temperatura" e "Umidade", que retornam, por operações Text To Speech, a leitura atual do DHT, respectivo ao que foi solicitado.
 * "Luzes":
-    Aqui, "Ligar" e "Desligar" mandam um sinal mqtt de ON ou OFF, respectivamente, que ativa o led interno localizado na placa ESP.
+    Aqui, "Acender" e "Desligar" mandam um sinal mqtt de ON ou OFF, respectivamente, que ativa o led interno localizado na placa ESP.
 * e "Trava":
     Do qual é possível requisitar "Trancar", "Destrancar" e "Estado". Os dois primeiros o executam na trava localizada no ESP,
     enquanto o último lê o estado atual da mesma.
