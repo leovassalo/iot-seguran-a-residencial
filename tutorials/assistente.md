@@ -25,7 +25,7 @@ J: A temperatura é 25.50 graus <br />
 U: Jarvis! <br />
 J: Já pode falar <br />
 U: Acender luzes <br />
-@ led nativo do ESP32 são acionado por MQTT @ <br />
+@ led nativo do ESP32 é acionado por MQTT @ <br />
 U: Desligar <br />
 U: Jarvis! <br />
 J: Já pode falar <br />
