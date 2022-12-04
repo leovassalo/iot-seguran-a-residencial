@@ -1,4 +1,4 @@
-Node Red será o principal gerenciador do RasberryPi-3, controlando a entrada dos comendos da dashboard ou de sensores externos
+Node Red será o principal gerenciador do RasberryPi-3, controlando a entrada dos comandos da dashboard ou de sensores externos
 e os redirecionando apropriadamente para o ESP-32 e/ou para suas variáveis de estado;
 
 Tanto microfone quanto DHT estão localizados no próprio gateway (Raspi), ao passo que periféricos como Luzes/LEDs, travas/relés de estado
@@ -13,12 +13,13 @@ Sistemas já disponíveis:
   - leitura de Umidade
   - ativação remota das luzes
   - ativação remota de uma trava
+  - resposta interativa para comandos desconhecidos *
 Ainda carecem serem programados:
   - luz de emergência
   - estado dos sensores atuantes no ESP
   - ademais interações humano-Jarvis ("Ligando as luzes", "Cozinha requer atenção", etc...)
 
-Conta com um sistema de "Desculpa, não entendi", toda vez que a wake-word é identificada mas a frase seguinte não está nas listadas;
+* Conta com um sistema de "Desculpa, não entendi", toda vez que a wake-word é identificada mas a frase seguinte não está nas listadas;
  
 Comandos disponíveis/Instruções de uso:
 Ao se iniciar o sistema o microfone fica em espera da wake-word "Jarvis". Ao entendê-la com sucesso, a assistente responderá uma frase de confirmação.
@@ -31,5 +32,8 @@ onde as palavras de acesso:
 * e "Trava":
     Do qual é possível requisitar "Trancar", "Destrancar" e "Estado". Os dois primeiros o executam na trava localizada no ESP,
     enquanto o último lê o estado atual da mesma.
+    
+ No Node-Red também se encontram programações relacionadas a um banco de dados de todos os estados atuais de luzes, travas e temperatura
+ - exemplos disponíveis nos arquivos .txt no Git -, e um sistema que atualiza ou devolve esses dados sempre que o aplicativo ou o site os requisitam.
 
 https://www.youtube.com/watch?v=20OGm_-RebE
