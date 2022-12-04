@@ -16,22 +16,22 @@ em sequência, onde as palavras de acesso:
 Exemplo de uso ("U" corresponde a "usuário" e "J" ao assistente Jarvis): <br />
 U: Jarvis! <br />
 J: Já pode falar <br />
-U: Diga a temperatura!
-J: Desculpa, não entendi
-U: Jarvis!
-J: Ja pode falar
-U: Qual a temperatura?
-J: A temperatura é 25.50 graus
-U: Jarvis!
-J: Já pode falar
-U: Acender luzes
-* led nativo do ESP32 são acionado por MQTT *
-U: Desligar
-U: Jarvis!
-J: Já pode falar
-U: Desligar
-J: Desculpa, não entendi
-U: Jarvis!
-J: Ja pode falar
-U: Desligar luzes
-* led interno do ESP32 é desligado por MQTT *
+U: Diga a temperatura! <br />
+J: Desculpa, não entendi <br />
+U: Jarvis! <br />
+J: Ja pode falar <br />
+U: Qual a temperatura? <br />
+J: A temperatura é 25.50 graus <br />
+U: Jarvis! <br />
+J: Já pode falar <br />
+U: Acender luzes <br />
+@ led nativo do ESP32 são acionado por MQTT @ <br />
+U: Desligar <br />
+U: Jarvis! <br />
+J: Já pode falar <br />
+U: Desligar <br />
+J: Desculpa, não entendi <br />
+U: Jarvis! <br />
+J: Ja pode falar <br />
+U: Desligar luzes <br />
+@ led interno do ESP32 é desligado por MQTT @
