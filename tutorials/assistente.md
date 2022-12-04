@@ -1,5 +1,5 @@
 Comandos disponíveis:
-Ao se iniciar o sistema (vide tutoriais->software), o microfone fica em espera da wake-word "Jarvis". Ao entendê-la com sucesso, a assistente responderá
+Ao se iniciar o sistema (vide tutoriais->setup físico), o microfone fica em espera da wake-word "Jarvis". Ao entendê-la com sucesso, a assistente responderá
 uma frase de confirmação. Logo após tal interação, é possível dizer o que se deseja com o seguinte formato: acesso-ação, um par de palavras ditas idealmente
 em sequência, onde as palavras de acesso:
 * "Qual a":
